@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Particle from '../../components/Particle';
 import laptopImg from '../../assets/about.png';
 import Card from '../../components/Card/AboutCard';
+import Techstack from '../../components/Techstack';
 
 const About = () => {
   return (
@@ -34,6 +35,10 @@ const About = () => {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+        <Techstack />
       </Container>
     </Container>
   )
