@@ -6,6 +6,7 @@ import Particle from '../../components/Particle';
 import laptopImg from '../../assets/about.png';
 import Card from '../../components/Card/AboutCard';
 import Techstack from '../../components/Techstack';
+import Toolstack from '../../components/Toolstack';
 
 const About = () => {
   return (
@@ -39,6 +40,10 @@ const About = () => {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Techstack />
+        <h1 className="project-heading">
+          <strong className="purple">Tools</strong> I use
+        </h1>
+        <Toolstack />
       </Container>
     </Container>
   )
