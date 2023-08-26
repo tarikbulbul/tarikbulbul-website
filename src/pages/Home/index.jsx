@@ -4,12 +4,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import homeLogo from '../../assets/home-main.svg';
 import Contact from '../../components/Contact';
+import Particle from '../../components/Particle';
 import Type from '../../components/Type';
 
 const Home = () => {
   return (
     <section>
       <Container fluid className="home-section" id="home">
+        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
