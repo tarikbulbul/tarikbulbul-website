@@ -2,12 +2,15 @@ import React from 'react';
 import Router from './router';
 import './style.css';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+const App = () => {
 
   return (
-    <Router />
-  )
+      <>
+          <Router />;
+      </>
+    )
 };
 
 export default App;
