@@ -7,6 +7,7 @@ import laptopImg from '../../assets/about.png';
 import Card from '../../components/Card/AboutCard';
 import Techstack from '../../components/Techstack';
 import Toolstack from '../../components/Toolstack';
+import Github from '../../components/Github';
 
 const About = () => {
   return (
@@ -44,6 +45,7 @@ const About = () => {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
+        <Github />
       </Container>
     </Container>
   )
