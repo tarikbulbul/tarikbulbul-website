@@ -7,6 +7,7 @@ import ProjectCard from '../../components/Card/ProjectCard';
 import projects from '../../data';
 
 const Projects = () => {
+  const reversedData = [...projects].reverse();
 
   return (
     <Container fluid className="project-section">
@@ -19,7 +20,7 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            {projects.map((project, index) => (
+            {reversedData.map((project, index) => (
               <Col md={4} className="project-card">
                 <ProjectCard key={index} {...project} />
               </Col>
