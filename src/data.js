@@ -5,6 +5,7 @@ import NetflixClone from "./assets/Projects/netflix-clone.png";
 import RealEstateWeb from "./assets/Projects/real-estate.png";
 import DefiWeb from "./assets/Projects/defi-website.png";
 import TravelWeb from "./assets/Projects/travel-website.png";
+import Easyshop from "./assets/Projects/easyshop.png";
 
 const projects = [
     {
@@ -62,6 +63,14 @@ const projects = [
       description: 'This project includes a budget calculator web application developed using React and the Context API. The application is designed to assist users in managing their income and expenses. Through the use of the Context API, data sharing and management between components are facilitated, enabling global state management for the application.',
       projectLink: 'https://react-budget-app-a0e26.firebaseapp.com/',
       codeLink: 'https://github.com/tarikbulbul/react-budget-app/',
+    },
+    {
+      id: 8,
+      imgPath: Easyshop,
+      title: 'EasyShop',
+      description: 'This project introduces an e-commerce website developed using React.js. The project allows users to log in, like products, add and remove products from the cart, view the contents of the cart including individual product prices and the total checkout amount, and remove products from the cart.',
+      projectLink: 'https://easyshop-tarikbulbul.vercel.app/',
+      codeLink: 'https://github.com/tarikbulbul/EasyShop/',
     },
   ];
   
