@@ -6,6 +6,7 @@ import RealEstateWeb from "./assets/Projects/real-estate.png";
 import DefiWeb from "./assets/Projects/defi-website.png";
 import TravelWeb from "./assets/Projects/travel-website.png";
 import Easyshop from "./assets/Projects/easyshop.png";
+import CountryInfo from "./assets/Projects/countryInfo.png";
 
 const projects = [
     {
@@ -50,6 +51,14 @@ const projects = [
     },
     {
       id: 6,
+      imgPath: CountryInfo,
+      title: 'Country Info',
+      description: "This website displays country information using the REST Countries API and provides the ability to show the country's location on Google Maps. It features a search bar where you can enter a country name to display its flag and name. Clicking on a country will take you to a details page that renders a component with country information.",
+      projectLink: 'https://country-info.tarikbulbul.vercel.app/',
+      codeLink: 'https://github.com/tarikbulbul/Country-Info/',
+    },
+    {
+      id: 7,
       imgPath: ReactMovieApp,
       title: 'React Movie App',
       description: 'This project contains a movie application that I created using React. The application utilizes the Open Movie Database (OMDb) API (omdbapi.com) to fetch movie data, allowing users to search for and view movie information.',
@@ -57,7 +66,7 @@ const projects = [
       codeLink: 'https://github.com/tarikbulbul/react-movie-app/',
     },
     {
-      id: 7,
+      id: 8,
       imgPath: ReactBudgetApp,
       title: 'React Budget App',
       description: 'This project includes a budget calculator web application developed using React and the Context API. The application is designed to assist users in managing their income and expenses. Through the use of the Context API, data sharing and management between components are facilitated, enabling global state management for the application.',
@@ -65,7 +74,7 @@ const projects = [
       codeLink: 'https://github.com/tarikbulbul/react-budget-app/',
     },
     {
-      id: 8,
+      id: 9,
       imgPath: Easyshop,
       title: 'EasyShop',
       description: 'This project introduces an e-commerce website developed using React.js. The project allows users to log in, like products, add and remove products from the cart, view the contents of the cart including individual product prices and the total checkout amount, and remove products from the cart.',
