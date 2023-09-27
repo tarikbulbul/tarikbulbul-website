@@ -1,16 +1,15 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { AiFillHtml5 } from 'react-icons/ai';
 import {
-    DiJavascript1,
-    DiReact,
-    DiNodejs,
-    DiMongodb,
-    DiGit,
     DiCss3,
     DiSass,
+    DiJavascript1,
+    DiReact,
 } from 'react-icons/di';
-import { AiFillHtml5 } from 'react-icons/ai';
+import {BiLogoTailwindCss} from 'react-icons/bi';
+import { BsFillBootstrapFill } from 'react-icons/bs';
 
 const Techstack = () => {
   return (
@@ -25,13 +24,16 @@ const Techstack = () => {
             <DiSass />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
+            <BiLogoTailwindCss />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <BsFillBootstrapFill />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
             <DiJavascript1 />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <DiReact />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiGit />
         </Col>
     </Row>
   )
